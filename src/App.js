@@ -1,30 +1,30 @@
-import lastSupper from './LastSupper.png';
-import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
-import './App.css';
+import './App.css'
+import Tablist from './components/Tablist'
+import Body from './components/Body'
+import LoginBox from './components/LoginBox'
+import React, {useEffect, useState} from 'react'
 
 function App() {
+  const [loggedIn, setLoggedIn] = useState(false)
+  const [user, setUser] = useState(null)
+
+
+  let [tabId, setTabId] = useState(0)
+  const tabs = ['Main', 'Alexis', 'Drew', 'Chris', 'Elinor', 'Kelly', 'Libby', 'Sam', 'Thomas']
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome to Friends Giving 2021 Tahoe Edition!
-        </p>
-        <img src={lastSupper} class="App-logo" alt="logo" />
-        <p>
-          This site is currently under construction...
-        </p>
-        <p>
-          Please Enter your Mobile Number to receive Text Updates for Friendsgiving
-        </p>
-        <div>
-        <PhoneInput
-          onlyCountries={['us']}
-          country={'us'}
-        />
-        <input type="submit" value="Submit"/>
-        </div>
-      </header>
+      {loggedIn?
+            <div>
+              <Tablist setTabId={setTabId} tabId={tabId} labels={tabs}/>
+              <Body setTabId={setTabId} tabId={tabId} labels={tabs} user={user}/>
+            </div>
+            :
+            <div className="box-container">
+              <LoginBox setLoggedIn={setLoggedIn} setUser={setUser}/>
+            </div>
+      }
     </div>
   );
 }
