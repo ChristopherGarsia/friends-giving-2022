@@ -15,8 +15,46 @@ function PersonalPage(props) {
         [], 
         [], 
         ["https://www.seriouseats.com/ultra-fluffy-mashed-potatoes-recipe"], 
-        ["https://www.seriouseats.com/the-food-lab-green-beans-haricots-verts-amandine"]
+        ["https://www.seriouseats.com/the-food-lab-green-beans-haricots-verts-amandine", "https://www.bonappetit.com/recipe/simple-is-best-dressing"]
     ]
+
+    const SamFood = ["7 yellow onions",
+        "3 carrots",
+        "8 stalks celery",
+        "1 orange",
+        "Baby bella mushrooms",
+        "Fresh Tomatoes",
+        "6 russet potatoes",
+        "1 Baguette"
+        ]
+
+    const ThomasFood = [
+        "40 eggs",
+        "2 loaves of bread",
+        "3 bell peppers",
+        "2 dozen bagels",
+        "1 cinnamon stick",
+        "Cholula",
+        "12 ounce (340g) fresh cranberries",
+        "1/2 cup of flat leaf parsley",
+        "1 bushel fresh sage",
+        "1 bushel rosemary",
+        "12 thyme sprigs",
+        "Green Bean Fixings",
+        "Beer"
+    ]
+
+    const ChrisFood = [
+        "Turkey",
+        "3 cups whole milk",
+        "1 block cheddar cheese",
+        "4 sticks unsalted butter",
+        "1 pound of GF bread",
+        "9 cups low sodium chicken broth"
+    ]
+
+    const shoppingList = [[], [], ChrisFood, [], ["Ingredients for your Favorite Salad!"], ThomasFood, SamFood, ThomasFood]
+    
 
     useEffect(() => {
         0 !== props.activeId ? setActive(true) : setActive(false)
@@ -57,6 +95,19 @@ function PersonalPage(props) {
                             <h2>Food to Bring to Tahoe:</h2>
                             {
                                 preTahoeMeals[props.activeId - 1].map(function(d) {
+                                    return <h3>{"- " + d}</h3>
+                                })
+                            }
+                        </div>
+                        :
+                        null
+                    }
+                    {
+                        shoppingList[props.activeId - 1]?.length > 0?
+                        <div className='itemBox'>
+                            <h2>Shopping List:</h2>
+                            {
+                                shoppingList[props.activeId - 1].map(function(d) {
                                     return <h3>{"- " + d}</h3>
                                 })
                             }
