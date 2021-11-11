@@ -3,6 +3,7 @@ import './App.css'
 import Tablist from './components/Tablist'
 import Body from './components/Body'
 import LoginBox from './components/LoginBox'
+import CountdownTimer from './components/CountdownTimer';
 import React, {useEffect, useState} from 'react'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       {loggedIn?
             <div>
+              <CountdownTimer countdownTimestampMs={1636750799000}/>
               <Tablist setTabId={setTabId} tabId={tabId} labels={tabs}/>
               <Body setTabId={setTabId} tabId={tabId} labels={tabs} user={user}/>
             </div>

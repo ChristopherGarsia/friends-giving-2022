@@ -6,7 +6,7 @@ function PersonalPage(props) {
     const titles = ['Head Mixologist', 'Activation Specialist', 'Talk Turkey to Me', 'Head of Spread', 'Outdoor Operations Manager', 'Head of Game Selections', 'Serotonin Optimizer', 'Head of Game Deployment']
     const essentials = ['Bath Towel', 'Bathing Suit', 'Comfortable Walking Shoes', 'Warm Clothes for Stargazing']
     const tahoeMeals = [["Omelettes with Chris"], ["Soup", "Gravy with Chris"], ["Turkey with Elinor", "Gravy with Drew", "Stuffing with Thomas", "Cranberry Sauce"], ["Turkey with Chris"], ["Salad"], [], ["Mashed Potatoes"], ["Stuffing with Chris", "Breakfast Sandwhiches"]]
-    const preTahoeMeals = [["Pie"], [], [], ["Pie"], [], [], [], []]
+    const preTahoeMeals = [["Pie"], [], [], ["Surprise Dessert"], ["Pie"], [], [], []]
     const recipes = [
         [], 
         ["https://www.seriouseats.com/butterfiled-roast-turkey-with-gravy-recipe"], 
@@ -31,10 +31,10 @@ function PersonalPage(props) {
                     <h2>{"Title: " + titles[props.activeId - 1]}</h2>
                     <br/>
                     <div className='itemBox'>
-                        <h2>Essentals to Bring:</h2>
+                        <h2>Essentials to Bring:</h2>
                         {
                             essentials.map(function(d) {
-                                return <h3>{d}</h3>
+                                return <h3>{"- " + d}</h3>
                             })
                         }
                     </div>
@@ -44,7 +44,7 @@ function PersonalPage(props) {
                             <h2>Food to Cook in Tahoe:</h2>
                             {
                                 tahoeMeals[props.activeId - 1].map(function(d) {
-                                    return <h3>{d}</h3>
+                                    return <h3>{"- " + d}</h3>
                                 })
                             }
                         </div>
@@ -57,7 +57,7 @@ function PersonalPage(props) {
                             <h2>Food to Bring to Tahoe:</h2>
                             {
                                 preTahoeMeals[props.activeId - 1].map(function(d) {
-                                    return <h3>{d}</h3>
+                                    return <h3>{"- " + d}</h3>
                                 })
                             }
                         </div>
