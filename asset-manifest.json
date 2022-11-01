@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/friends-giving-2022/static/css/main.d67a492b.chunk.css",
-    "main.js": "/friends-giving-2022/static/js/main.9a776022.chunk.js",
-    "main.js.map": "/friends-giving-2022/static/js/main.9a776022.chunk.js.map",
-    "runtime-main.js": "/friends-giving-2022/static/js/runtime-main.0e3adce6.js",
-    "runtime-main.js.map": "/friends-giving-2022/static/js/runtime-main.0e3adce6.js.map",
+    "main.css": "/friends-giving-2022/static/css/main.9834a353.chunk.css",
+    "main.js": "/friends-giving-2022/static/js/main.4db726f3.chunk.js",
+    "main.js.map": "/friends-giving-2022/static/js/main.4db726f3.chunk.js.map",
+    "runtime-main.js": "/friends-giving-2022/static/js/runtime-main.2d9a352a.js",
+    "runtime-main.js.map": "/friends-giving-2022/static/js/runtime-main.2d9a352a.js.map",
     "static/css/2.2bbe33c5.chunk.css": "/friends-giving-2022/static/css/2.2bbe33c5.chunk.css",
-    "static/js/2.a1a1f93e.chunk.js": "/friends-giving-2022/static/js/2.a1a1f93e.chunk.js",
-    "static/js/2.a1a1f93e.chunk.js.map": "/friends-giving-2022/static/js/2.a1a1f93e.chunk.js.map",
-    "static/js/3.a8987a18.chunk.js": "/friends-giving-2022/static/js/3.a8987a18.chunk.js",
-    "static/js/3.a8987a18.chunk.js.map": "/friends-giving-2022/static/js/3.a8987a18.chunk.js.map",
+    "static/js/2.e51f9cb5.chunk.js": "/friends-giving-2022/static/js/2.e51f9cb5.chunk.js",
+    "static/js/2.e51f9cb5.chunk.js.map": "/friends-giving-2022/static/js/2.e51f9cb5.chunk.js.map",
+    "static/js/3.ac59f7d2.chunk.js": "/friends-giving-2022/static/js/3.ac59f7d2.chunk.js",
+    "static/js/3.ac59f7d2.chunk.js.map": "/friends-giving-2022/static/js/3.ac59f7d2.chunk.js.map",
     "index.html": "/friends-giving-2022/index.html",
     "static/css/2.2bbe33c5.chunk.css.map": "/friends-giving-2022/static/css/2.2bbe33c5.chunk.css.map",
-    "static/css/main.d67a492b.chunk.css.map": "/friends-giving-2022/static/css/main.d67a492b.chunk.css.map",
-    "static/js/2.a1a1f93e.chunk.js.LICENSE.txt": "/friends-giving-2022/static/js/2.a1a1f93e.chunk.js.LICENSE.txt",
+    "static/css/main.9834a353.chunk.css.map": "/friends-giving-2022/static/css/main.9834a353.chunk.css.map",
+    "static/js/2.e51f9cb5.chunk.js.LICENSE.txt": "/friends-giving-2022/static/js/2.e51f9cb5.chunk.js.LICENSE.txt",
     "static/media/HappyFriendsgiving.9a13a386.png": "/friends-giving-2022/static/media/HappyFriendsgiving.9a13a386.png",
     "static/media/Itinerary.0c566445.png": "/friends-giving-2022/static/media/Itinerary.0c566445.png",
     "static/media/Menu.1c73c253.png": "/friends-giving-2022/static/media/Menu.1c73c253.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e3adce6.js",
+    "static/js/runtime-main.2d9a352a.js",
     "static/css/2.2bbe33c5.chunk.css",
-    "static/js/2.a1a1f93e.chunk.js",
-    "static/css/main.d67a492b.chunk.css",
-    "static/js/main.9a776022.chunk.js"
+    "static/js/2.e51f9cb5.chunk.js",
+    "static/css/main.9834a353.chunk.css",
+    "static/js/main.4db726f3.chunk.js"
   ]
 }
