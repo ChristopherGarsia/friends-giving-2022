@@ -22,7 +22,7 @@ function PersonalPage(props) {
                     <h2>{"Title: " + titles[props.activeId - 1]}</h2>
                     <br/>
                     <div className='itemBox'>
-                        <h2>Essentials to Bring:</h2>
+                        <h2>Essentials to Bring to Park City:</h2>
                         {
                             essentials.map(function(d) {
                                 return <h3>{"- " + d}</h3>
@@ -32,7 +32,7 @@ function PersonalPage(props) {
                     {
                         parkCityMeals[props.activeId - 1]?.length > 0?
                         <div className='itemBox'>
-                            <h2>What you're making Saturday in Park City:</h2>
+                            <h2>What you're making Saturday:</h2>
                             {
                                 parkCityMeals[props.activeId - 1].map(function(d) {
                                     return <h3>{"- " + d}</h3>
