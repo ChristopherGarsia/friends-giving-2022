@@ -25,7 +25,7 @@ const CountdownTimer = ({countdownTimestampMs}) => {
 
     return(
         <div className="countdown-div">
-            <h1 className="h1-timer">Countdown to Friends Giving!</h1>
+            <h1 className="h1-timer">Countdown to Friendsgiving!</h1>
             <div className="countdown-timer">
                 <span>{remainingTime.days}</span>
                 <span>days</span>

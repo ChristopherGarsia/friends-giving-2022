@@ -12,13 +12,13 @@ function App() {
 
 
   let [tabId, setTabId] = useState(0)
-  const tabs = ['Main', 'Alexis', 'Drew', 'Chris', 'Elinor', 'Kelly', 'Libby', 'Sam', 'Thomas']
+  const tabs = ['Main', 'Libby', 'Elinor', 'Chris', 'Thomas', 'Sam', 'Dawson', 'Julian', 'Danielle', 'Leon', 'Colter', 'Ashley']
 
   return (
     <div className="App">
       {loggedIn?
             <div>
-              <CountdownTimer countdownTimestampMs={1636750799000}/>
+              <CountdownTimer countdownTimestampMs={1668227400000}/>
               <Tablist setTabId={setTabId} tabId={tabId} labels={tabs}/>
               <Body setTabId={setTabId} tabId={tabId} labels={tabs} user={user}/>
             </div>

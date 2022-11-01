@@ -1,7 +1,6 @@
 .App {
-  background-color: #f7c469;
-  background: linear-gradient(90deg, rgba(196,99,82,1) 0%, rgba(247,196,105,1) 30%, rgba(247,196,105,1) 70%, rgba(196,99,82,1) 100%);  
-  color: #412525;
+  background: #cc7700;  
+  color: #471a0c;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: 'flex';
@@ -9,16 +8,25 @@
   align-items: center;
 }
 
-.heading {
-  font-size: 2.5vw;
+.h1-name {
+  color: #a63d26;
 }
+
+.heading {
+  color: #471a0c;
+  font-size: 2vw;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
 
 .heading2 {
   font-size: 1.5vw;
+  color: #471a0c;
 }
 
 .App-header {
-  background-color: #412525;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,21 +37,25 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #a63d26;;
 }
 
 .tabList {
+  color: #a63d26;
+  margin-top: calc(10px + 2vmin);
+  margin-bottom: calc(10px + 2vmin);
   padding-left: 0;
   display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .tab {
-  background-color: #412525;
   width: 100%;
+  text-underline-position: below;
 }
 
 .tab .label {
-  color: white;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
@@ -57,11 +69,11 @@
 }
 
 .tab .label:hover {
-  background-color: #714433;
+  border-bottom: 2px solid currentColor;
 }
 
 .tab .labelActive {
-  color: white;
+  border-bottom: 2px solid currentColor;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
@@ -71,7 +83,6 @@
   display: inline-block;
   font-size:17px;
   margin:0%;
-  background-color: #714433;
 }
 
 .button {
@@ -291,16 +302,34 @@ button {
   display: block;
 }
 
+h4{
+  font-style: italic;
+}
+
 .itemBox {
+  background-color: #a5450d;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-left: 30%;
   margin-right: 30%;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(110, 110, 110, 0.3), 0 0 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 10px #471a0c, 0 0 10px #471a0c;
   height: auto;
   margin-bottom: 1.5em;
-  background-color: rgba(238, 238, 238, 0.3); 
+  color: #471a0c;
+}
+
+.itemBox-heading {
+  background-color: #a5450d;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #471a0c, 0 0 10px #471a0c;
+  height: auto;
+  margin-bottom: 1.5em;
+  color: #471a0c;
 }
 
 .frame {
@@ -313,6 +342,7 @@ button {
 }
 
 .countdown-timer {
+  color: #471a0c;
   padding: 1vw;
   margin-top: 5px;
   width: 25%;
@@ -322,7 +352,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: .1em solid #412525;
+  border-top: .1em solid #471a0c;
   /* box-shadow: 0 0 10px rgba(90, 90, 90, .3), 0 0 2px rgba(0, 0, 0, .1); */
 }
 
@@ -336,23 +366,23 @@ button {
 }
 
 .countdown-div {
-  color: #412525;
+  color: #a63d26;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(90deg, rgba(196,99,82,1) 0%, rgba(247,196,105,1) 30%, rgba(247,196,105,1) 70%, rgba(196,99,82,1) 100%);  
 }
 
 .h1-timer {
+  color: #471a0c;
   margin-bottom: 0;
   font-size: 1.5vw;
 }
 
 html {
-  background: linear-gradient(90deg, rgba(196,99,82,1) 0%, rgba(247,196,105,1) 30%, rgba(247,196,105,1) 70%, rgba(196,99,82,1) 100%) repeat-x scroll; ;
+  background: #cc7700;  
 }
 
 body {
-  background: linear-gradient(90deg, rgba(196,99,82,1) 0%, rgba(247,196,105,1) 30%, rgba(247,196,105,1) 70%, rgba(196,99,82,1) 100%); 
+  background: #cc7700;  
 }
