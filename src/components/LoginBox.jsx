@@ -10,21 +10,16 @@ function LoginBox(props) {
     const passwordsToUser = new Map([["glina1999", "Jujy"], ["reckers1999", "D Dog"], ["garsia1999", "Chris"], ["floyd1998", "E Monster"], ["breaux1999", "Leon the Prof"], ["reynolds1999", "Sambo"], ["dunne1998", "Libster"], ["mckinstry1999", "Thomas the Tank"], ["carton", "Colt45"], ["dunne2000", "Trashley"] ])
 
     function validatePassword(event) {
-        if (password !== null) {
-            if (detectmobile()) {
-                setViewedOnMobile(true)
-            }
-            else {
-                setViewedOnMobile(false)
-            }
+        if (detectmobile()) {
+            setViewedOnMobile(true)
+        }
+        else if (password !== null) {
+            setViewedOnMobile(false)
             
             if (validPasswords.includes(password.toLowerCase()))
             {
                 setInvalidPassword(false)
                 props.setUser(passwordsToUser.get(password.toLowerCase()))
-                console.log(passwordsToUser)
-                console.log(password.toLowerCase())
-                console.log(passwordsToUser.get(password.toLowerCase))
                 props.setLoggedIn(true)
             }
             else {
@@ -32,6 +27,7 @@ function LoginBox(props) {
             }
         }
         else {
+            setViewedOnMobile(false)
             setInvalidPassword(true)
         }
     }
