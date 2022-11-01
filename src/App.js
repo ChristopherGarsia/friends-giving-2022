@@ -27,6 +27,7 @@ function App() {
               <LoginBox setLoggedIn={setLoggedIn} setUser={setUser}/>
             </div>
       }
+      <h3>&copy; 2022 | Chris Garsia</h3>
     </div>
   );
 }
