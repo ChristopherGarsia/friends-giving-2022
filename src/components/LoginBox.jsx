@@ -7,7 +7,7 @@ function LoginBox(props) {
 
     const validPasswords = ["glina1999", "reckers1999", "chan1998", "breaux1999", "floyd1998", "garsia1999", "reynolds1999", "dunne1998", "mckinstry1999", "dunne2000", "carton2000"]
 
-    const passwordsToUser = new Map([["glina1999", "Jujy"], ["reckers1999", "D Dog"], ["garsia1999", "Chris"], ["floyd1998", "E Monster"], ["breaux1999", "Leon the Prof"], ["reynolds1999", "Sambo"], ["dunne1998", "Libster"], ["mckinstry1999", "Thomas the Tank"], ["carton", "Colt45"], ["dunne2000", "Trashley"] ])
+    const passwordsToUser = new Map([["glina1999", "Jujy"], ["reckers1999", "D Dog"], ["chan1998", "Chug"], ["garsia1999", "Chris"], ["floyd1998", "E Monster"], ["breaux1999", "Leon the Prof"], ["reynolds1999", "Sambo"], ["dunne1998", "Libster"], ["mckinstry1999", "Thomas the Tank"], ["carton2000", "Colt45"], ["dunne2000", "Trashley"] ])
 
     function validatePassword(event) {
         if (detectmobile()) {
