@@ -13,14 +13,14 @@ function MainPage(props) {
 
     return (
         <div className='mainPage'>
-            {active? 
-                <div>
-                    <br></br>
-                    <div className='itemBox-heading'>
-                        <h1 className='heading'>Welcome to the Official Site for <br/> Friendsgiving 2022 Park City Edition</h1>
+                {active? 
+                    <div>
+                        <br></br>
+                        <div className='itemBox-heading'>
+                        <h1 className='heading'>Welcome to the Official Site for <br/> Friendsgiving 2023 Lake Tahoe Edition</h1>
                     </div>
-                    <h4>"It’s not like a *regular* thanksgiving, it’s like a *really cool* friendsgiving."</h4>
-                    <h4>- Everyone who wishes they were at this friendsgiving</h4>
+                    <h4>"Celebrate we will because life is short but sweet for certain!"</h4>
+                    <h4>- Dave</h4>
                     <br></br>
                     <h2 className='heading2'>{"Hello " + props.user + "! Please use this site to learn more about the everyone's roles for this weekend"}</h2>
                     <h2 className='heading2'>You can also find your specific packing lists and meals within your tab</h2>

@@ -1,29 +1,42 @@
 .App {
-  background: #cc7700;  
   color: #471a0c;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: 'flex';
   justify-content: center;
   align-items: center;
+  z-index: -30;
 }
 
 .h1-name {
-  color: #a63d26;
+  color: #471a0c;
+  font-size: 2.75em;
 }
 
 .heading {
-  color: #471a0c;
+  color: #cea17c;
   font-size: 2vw;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-
+h3 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .heading2 {
   font-size: 1.5vw;
   color: #471a0c;
+  white-space: pre-line;
+}
+
+.descriptions {
+  white-space: pre-line;
+  font-size: 1vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
 }
 
 .App-header {
@@ -73,6 +86,41 @@
 }
 
 .tab .labelActive {
+  border-bottom: 2px solid currentColor;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size:17px;
+  margin:0%;
+}
+
+tab {
+  width: 100%;
+  text-underline-position: below;
+}
+
+tab .label {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size:17px;
+  margin:0%;
+  cursor: pointer;
+}
+
+tab .label:hover {
+  border-bottom: 2px solid currentColor;
+}
+
+tab .labelActive {
   border-bottom: 2px solid currentColor;
   padding-left: 15px;
   padding-right: 15px;
@@ -307,29 +355,29 @@ h4{
 }
 
 .itemBox {
-  background-color: #a5450d;
+  background-color: #474c33;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-left: 30%;
   margin-right: 30%;
   border-radius: 10px;
-  box-shadow: 0 0 10px #471a0c, 0 0 10px #471a0c;
+  box-shadow: 0 0 10px #474c33, 0 0 10px #474c33;
   height: auto;
   margin-bottom: 1.5em;
-  color: #471a0c;
+  color: #cea17c;
 }
 
 .itemBox-heading {
-  background-color: #a5450d;
+  background-color: #474c33;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-left: 20%;
   margin-right: 20%;
   border-radius: 10px;
-  box-shadow: 0 0 10px #471a0c, 0 0 10px #471a0c;
+  box-shadow: 0 0 10px #474c33, 0 0 10px #474c33;
   height: auto;
   margin-bottom: 1.5em;
-  color: #471a0c;
+  color: #cea17c;
 }
 
 .frame {
@@ -379,10 +427,6 @@ h4{
   font-size: 1.5vw;
 }
 
-html {
-  background: #cc7700;  
-}
-
 body {
-  background: #cc7700;  
+  background: #cea17c;  
 }

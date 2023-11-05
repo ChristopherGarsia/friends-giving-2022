@@ -11,6 +11,9 @@ function Body(props) {
             <PersonalPage
                 activeId={props.tabId}
                 labels={props.labels}
+                userId={props.userId}
+                songPlaying={props.songPlaying}
+                setSongPlaying={props.setSongPlaying}
             />
         </div>
     )
