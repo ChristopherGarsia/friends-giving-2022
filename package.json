@@ -13,6 +13,7 @@
     "react-dropdown": "^1.11.0",
     "react-phone-input-2": "^2.14.0",
     "react-scripts": "4.0.3",
+    "react-slideshow-image": "^4.3.0",
     "react-snowfall": "^1.2.1",
     "use-sound": "^4.0.1",
     "web-vitals": "^1.0.1"

@@ -11,7 +11,7 @@ function PersonalPage(props) {
         'Co Head Chef', //Chris
         'Co Mixologist', //Drew
         'The Activation Specialist', //Elinor
-        'Early Bird', //Kelly
+        //'', //Kelly
         'Friendsgiving Facilitator', //Libby
         'The Game Guru', //Sam
         'Co Head Chef', //Thomas
@@ -22,7 +22,7 @@ function PersonalPage(props) {
         'You know what you\'re doing', 
         'You will be mixing drinks with Will Barber during, before and after the friendsgiving feast. Ensure everyone is socially lubricated for the evenings festivities with a variety of delicious cocktails', 
         'Your job covers many bases: \n\n1. You must help everyone stay activated,\n(get people dancing, hiking, drinking etc...) \n\n2. You must plan and coordinate the outdoor activity on Saturday \n\n3. Keep the atmosphere activated \n(if the tunes aren\'t fitting the mood change them, \nif people are cold make a fire, \nkeep it stokin\' ya feel?)',
-        'TBD',
+        //'TBD',
         'Your title gets you wearing many hats, but can be summarized as follows: \n\n-Plate the table before the meal \n\n-Be available for help in the kitchen as needed \n\n-Take photos of friendsgiving so we\'ve got some good ones for the memories (and to share with Maggie and Ben)',
         'Your job is plan, coordinate and execute the games. Preferably a fun mix of drinking games and "normal" games',
         'You know what you\'re doing', 
@@ -33,7 +33,7 @@ function PersonalPage(props) {
         ["Turkey", "Mashed Potatoes", "Gravy", "Stuffing", "Veggies", "Soup", "Cranberry Sauce"], 
         ["Drinks (please coordinate with Will Barber to determine what mixed drink supplies + alcohol to bring up)"], 
         ["Breakfast", "Pumpkin Cornbread"], 
-        ["Charcuterie Board Appetizer (please bring up fixings for a charcuterie board for Saturday evening and arrange as desired)"], 
+        //["Charcuterie Board Appetizer (please bring up fixings for a charcuterie board for Saturday evening and arrange as desired)"], 
         ["Mashed Potatoes (ingredients will be supplied)"], 
         ["Homemade Pies (please bake homemade pies to bring up to Tahoe)"], 
         ["Turkey", "Mashed Potatoes", "Gravy", "Stuffing", "Veggies", "Soup", "Cranberry Sauce"], 
