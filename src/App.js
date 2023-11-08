@@ -21,7 +21,7 @@ function App() {
   const [songPlaying, setSongPlaying] = useState(false)
 
   let [tabId, setTabId] = useState(0)
-  const tabs = ['Main', 'Alexis', 'Chris', 'Drew', 'Elinor', 'Libby', 'Sam', 'Thomas', 'Will'] // 'Kelly'
+  const tabs = ['Main', 'Alexis', 'Chris', 'Drew', 'Elinor', 'Libby', 'Sam', 'Taggart', 'Thomas', 'Will']
 
   return (
     <div className="App" >
