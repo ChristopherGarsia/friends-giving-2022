@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Commands I use
+`npm start` to run the application\
+`npm run deploy` to deploy the application
+
 ## Available Scripts
 
 In the project directory, you can run:

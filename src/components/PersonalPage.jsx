@@ -33,9 +33,9 @@ function PersonalPage(props) {
         ["Turkey", "Mashed Potatoes", "Gravy", "Stuffing", "Veggies", "Soup", "Cranberry Sauce"], 
         ["Drinks (please coordinate with Will Barber to determine what mixed drink supplies + alcohol to bring up)"], 
         ["Breakfast", "Pumpkin Cornbread"], 
-        ["Assist in warming up and serving of pies"], 
         ["Mashed Potatoes (ingredients will be supplied)"], 
         ["Homemade Pies (please bake homemade pies to bring up to Tahoe)"], 
+        ["Assist in warming up and serving of pies"],
         ["Turkey", "Mashed Potatoes", "Gravy", "Stuffing", "Veggies", "Soup", "Cranberry Sauce"], 
         ["Drinks please coordinate with Drew Barber to determine what mixed drink supplies + alcohol to bring up)"]]
     const essentials = ['Sleeping Bag', 'Pillow', 'Towel', 'Bathing Suit', 'Warm Clothes (Average Temps 25°F-45°F)', 'Comfortable Walking Shoes', 'Friendsgiving Outfit']
